@@ -1,52 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+</head>
+<body>
 
-<!-- products.html -->
-<h1>Our Products</h1>
-<div class="product-grid">
-  <article class="product-card">
-    <img src="images/product1.jpg" alt="A stylish blue widget">
-    <h3>Blue Widget</h3>
-    <p class="price">$19.99</p>
-    <a href="#" class="btn-primary">Add to Cart</a>
-  </article>
+<h1>Image Gallery</h1>
 
-  <article class="product-card">
-    <!-- ... another product ... -->
-  </article>
+<table>
+    <tr>
+        <td>
+            <a href="images/image1.jpg">
+                <img src="images/image1.jpg" width="100" alt="Red dress on hanger">
+            </a>
+        </td>
 
-  <article class="product-card">
-    <!-- ... another product ... -->
-  </article>
+        <td>
+            <a href="images/image2.jpg">
+                <img src="images/image2.jpg" width="100" alt="Shoes that are untied">
+            </a>
+        </td>
 
-  <article class="product-card">
-    <!-- ... another product ... -->
-  </article>
-</div>
-/* Mobile-First Product Grid */
-.product-grid {
-  display: grid;
-  gap: 1.5rem; /* Creates space between the product cards */
-}
+        <td>
+            <a href="images/image3.jpg">
+                <img src="images/image3.jpg" width="100" alt="Sunglasses with cheetah print on face">
+            </a>
+        </td>
+    </tr>
 
-.product-card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  text-align: center;
-}
+    <tr>
+        <td>
+            <a href="images/image4.jpg">
+                <img src="images/image4.jpg" width="100" alt="Leather jacket on male model">
+            </a>
+        </td>
 
-.product-card img {
-  max-width: 100%; /* Make images fluid */
-  height: auto;
-}
-/* Tablet: 2 Columns */
-@media (min-width: 600px) {
-  .product-grid {
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  }
-}
+        <td>
+            <a href="images/image5.jpg">
+                <img src="images/image5.jpg" width="100" alt="Orange shirt with red shorts and yellow bag">
+            </a>
+        </td>
 
-/* Desktop: 4 Columns */
-@media (min-width: 900px) {
-  .product-grid { 
-grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
-  }
-}
+        <td>
+            <a href="images/image6.jpg">
+                <img src="images/image6.jpg" width="100" alt="Swimsuit laying out on the beach">
+            </a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="images/image7.jpg">
+                <img src="images/image7.jpg" width="100" alt="Black long dress on female model">
+            </a>
+        </td>
+
+        <td>
+            <a href="images/image8.jpg">
+                <img src="images/image8.jpg" width="120" alt="Floral ball gown on female model">
+            </a>
+        </td>
+
+        <td>
+            <a href="images/image9.jpg">
+                <img src="images/image9.jpg" width="100" alt="Three purses laying side by side">
+            </a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
