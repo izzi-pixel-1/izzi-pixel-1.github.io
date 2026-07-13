@@ -1,52 +1,52 @@
-<h1>Our Pricing Plans</h1>
-<p>Choose the plan that's right for your team's needs!</p>
-<table>
-  <thead>
-    <!-- Header row will go here -->
-  </thead>
-  <tbody>
-    <!-- Data rows will go here -->
-  </tbody>
-  <tfoot>
-    <!-- Call-to-action row will go here -->
-  </tfoot>
-</table>
-<thead>
-  <tr>
-    <th>Feature</th>
-    <th>Starter Plan</th>
-    <th>Pro Plan</th>
-    <th>Enterprise Plan</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <th>Users Included</th>
-    <td>5</td>
-    <td>25</td>
-    <td>Unlimited</td>
-  </tr>
-  <tr>
-    <th>Cloud Storage</th>
-    <td>10 GB</td>
-    <td>100 GB</td>
-    <td>1 TB</td>
-  </tr>
-  <tr>
-    <th>Priority Support</th>
-    <td>✗</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-</tbody>
-<tfoot>
-  <tr>
-    <td></td> <!-- Empty cell for alignment -->
-    <td><a href="/signup?plan=starter">Sign Up Now</a></td>
-    <td><a href="/contact-sales">Contact Sales</a></td>
-  </tr>
-</tfoot>
 
+<!-- products.html -->
+<h1>Our Products</h1>
+<div class="product-grid">
+  <article class="product-card">
+    <img src="images/product1.jpg" alt="A stylish blue widget">
+    <h3>Blue Widget</h3>
+    <p class="price">$19.99</p>
+    <a href="#" class="btn-primary">Add to Cart</a>
+  </article>
 
+  <article class="product-card">
+    <!-- ... another product ... -->
+  </article>
 
+  <article class="product-card">
+    <!-- ... another product ... -->
+  </article>
 
+  <article class="product-card">
+    <!-- ... another product ... -->
+  </article>
+</div>
+/* Mobile-First Product Grid */
+.product-grid {
+  display: grid;
+  gap: 1.5rem; /* Creates space between the product cards */
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%; /* Make images fluid */
+  height: auto;
+}
+/* Tablet: 2 Columns */
+@media (min-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  }
+}
+
+/* Desktop: 4 Columns */
+@media (min-width: 900px) {
+  .product-grid { 
+grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
+  }
+}
