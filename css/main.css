@@ -1,12 +1,8 @@
-<head>
+@font-face {
     <meta charset="UTF-8">
     <title>My Website</title>
-</head>
-
-<fonts>
-    font-family:"OpenSans" ;
-    src:url("../fonts/OpenSans-Regular.ttf");
 }
+
 
 body {
     font-family:"OpenSans", Arial, sans-serif;
