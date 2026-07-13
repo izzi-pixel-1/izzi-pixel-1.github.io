@@ -1,4 +1,9 @@
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <fonts>
     font-family: "OpenSans" ;
     src: url("../fonts/OpenSans-Regular.ttf");
