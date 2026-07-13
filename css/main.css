@@ -5,26 +5,26 @@
 </head>
 
 <fonts>
-    font-family: "OpenSans" ;
-    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family:"OpenSans" ;
+    src:url("../fonts/OpenSans-Regular.ttf");
 }
 
 body {
-    font-family: "OpenSans", Arial, sans-serif;
-    background-color: #af8ed9;
+    font-family:"OpenSans", Arial, sans-serif;
+    background-color:#af8ed9;
 }
 h1 {
-    font-size: 36px;
-    font-weight: bold;
+    font-size:36px;
+    font-weight:bold;
 }
 img {
-    max-width: 100%;
+    max-width:100%;
 }
 .btn-primary {
-    background-color: #b3aeb8;
-    color: grey;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+    background-color:#b3aeb8;
+    color:grey;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
 }
 <a href="gallery.html" class="btn-primary">Gallery</a>
