@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-itmes: center;
+  }
+  nav li {
+    margin: 10px 0;
+  }
+}
