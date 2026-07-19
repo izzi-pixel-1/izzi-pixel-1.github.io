@@ -1,23 +1,18 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width=device=width, initial-scale=1">
-    <title>Isabel Bennett Fashion Links - All Pages</title>
-    <meta name="description" content="Access all Pages Here"
-    <link rel="stylesheet" href="css/main.css">
-  </head><?xml version="1.0" encoding="UTF-8"?>
-<urlset> xmlns="http://www.sitemaps.org/shemas/sitemap/0.9"</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/shemas/sitemap/0.9">
     <url>
-    <loc>https://izzi-pixel-1.github.io/index.io</loc>
+        <loc>https://izzi-pixel-1.github.io/index.io</loc>
     </url>
 
     <url>
-      <loc>https://izzi-pixel-1.github.io/about.html</loc>
+        <loc>https://izzi-pixel-1.github.io/about.html</loc>
     </url>
 
     <url>
-      <loc>https://izzi-pixel-1.github.io/gallery.html</loc>
+        <loc>https://izzi-pixel-1.github.io/gallery.html</loc>
     </url>
 
     <url>
-      <loc>https://izzi-pixel-1.github.io/template.html</loc>
+        <loc>https://izzi-pixel-1.github.io/template.html</loc>
     </url>
+</urlset>
